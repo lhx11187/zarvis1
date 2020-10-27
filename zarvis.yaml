@@ -1,0 +1,6 @@
+apiVersion: beta/v1
+deploy:
+  skaffold: {}
+ingress:
+  - serviceName: 111
+    port: 80
