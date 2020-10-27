@@ -2,7 +2,7 @@ apiVersion: skaffold/v1
 kind: Config
 build:
   artifacts:
-  - image: zarvis/example-go
+  - image: nh6y/testk8v
 deploy:
   kubectl:
     manifests:
