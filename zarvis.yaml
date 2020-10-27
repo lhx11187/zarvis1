@@ -2,5 +2,5 @@ apiVersion: beta/v1
 deploy:
  docker:                             # Build Dockerfile and deploy.
    file: Dockerfile                  # locates the Dockerfile relative to workspace. Defaults to 'Dockerfile'.
-   service: 111               # Name of a Service to create, so ingress can connect. Defaults to 'service'.
+   service: service                  # Name of a Service to create, so ingress can connect. Defaults to 'service'.
    port: 80
