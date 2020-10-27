@@ -14,5 +14,6 @@ spec:
     spec:
       containers:
       - name: 111
-        image: nh6y/testk8v
-        imagePullPolicy: IfNotPresent
+        image: nh6y/testk8v:latest
+        ports:
+        - containerPort: 80
